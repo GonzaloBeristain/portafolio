@@ -52,13 +52,48 @@ export const Proyectos = () => {
                 </div>
             </section>
 
+            <section className="rounded-md">
+                <div className="p-2 border-b border-t border-slate-500 md:flex md:justify-between md:items-center md:gap-x-8">
+                    <div>
+                        <div className="flex justify-between items-center py-1">
+                            <h1 className="text-slate-300 font-semibold text-xl md:text-2xl">Futbol App</h1>
+                            <Link className="text-base bg-black rounded-md px-2 text-purple-500 font-semibold hover:text-purple-800 transition-colors duration-200 md:text-lg md:bg-black" href={"https://github.com/GonzaloBeristain/FutbolApp"}>
+                                Código
+                            </Link>
+                        </div>
+                        <p className="text-slate-400 font-semibold text-justify pb-1 md:text-lg">Aplicación orientada al mundo del futbol. La finalidad es realizar un CRUD utilizando VisualStudio 2022 con ASP-CORE y guardando la información en una base de datos. Se armó una base de datos con tablas relacionales a través de llaves foráneas.</p>
+                    </div>
+                    <div className="p-1 text-center flex gap-x-2 text-xs md:-ml-2 md:text-base">
+                        <p className="text-red-600 bg-black rounded-full w-16 font-semibold">.NET</p>
+                        <p className="text-blue-600 bg-black rounded-full w-24 font-semibold">ASPCore</p>
+                        <p className="text-slate-400 bg-black rounded-full w-10 font-semibold">C#</p>
+                        <p className="text-sky-500 bg-black rounded-full w-24 font-semibold">SQLServer</p>
+                        <p className="text-green-500 bg-black rounded-full w-36 font-semibold">EntityFramework</p>
+                        <p className="text-slate-400 bg-black rounded-full w-14 font-semibold">MVC</p>
+                    </div>
+                </div>
+                <div className="relative py-6">
+                    <Image src={cambiarImagen ? "/images/proyectos/appfutbol1.jpg" : "/images/proyectos/appfutbol2.jpg"}   alt="foto" className="m-auto rounded-md" width={1200} height={1200}/>
+                    <button onClick={handleClick} type="button" className="text-slate-300 text-4xl absolute top-52 right-4 hover:text-slate-500 transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" className="w-10 h-10">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                        </svg>
+                    </button>
+                    <button onClick={handleClick} type="button" className="text-slate-300 text-4xl absolute top-52 left-4 hover:text-slate-500 transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" className="w-10 h-10">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+                        </svg>
+                    </button>
+                </div>
+            </section>
+
             <section className="rounded-md md:pt-14">
                 <div className="p-2 border-b border-t border-slate-500 md:flex md:justify-between md:items-center md:gap-x-8">
                     <div>
                         <div className="flex justify-between items-center py-1">
                             <h1 className="text-slate-300 font-semibold text-xl md:text-2xl">BERISTAIN Market</h1>
                             <Link className="text-base bg-black rounded-md px-2 text-purple-500 font-semibold hover:text-purple-800 transition-colors duration-200 md:text-lg md:bg-black" href={"https://github.com/GonzaloBeristain/SuperMarketApp"}>
-                                Visitar
+                                Código
                             </Link>
                         </div>
                         <p className="text-slate-400 font-semibold text-justify pb-1 md:text-lg">Aplicación orientada a la compra online de productos de supermercado. El objetivo es que los clientes agreguen sus productos y puedan pagar online. La app cuenta con registro y login.</p>
@@ -114,14 +149,13 @@ export const Proyectos = () => {
                         <div className="flex justify-between items-center py-1">
                             <h1 className="text-slate-300 font-semibold text-xl md:text-2xl">CRUD Banderas APP</h1>
                             <Link className="text-base bg-black rounded-md px-2 text-purple-500 font-semibold hover:text-purple-800 transition-colors duration-200 md:text-lg md:bg-black" href={"https://github.com/GonzaloBeristain/CRUD-Login-React"}>
-                                Visitar
+                                Código
                             </Link>
                         </div>
                         <p className="text-slate-400 font-semibold text-justify pb-1 md:text-lg">CRUD realizado con React(front) y Node.js(back). Incluye login con JWT, Hash, y .env. Click en Visitar para ver el código en github.</p>
                     </div>
-                    <div className="p-1 text-center flex gap-x-2 text-sm md:-ml-2 md:text-base">
+                    <div className="p-1 text-center flex gap-x-2 text-xs md:-ml-2 md:text-base">
                         <p className="text-red-600 bg-black rounded-full w-16 font-semibold">HTML5</p>
-                        <p className="text-yellow-600 bg-black rounded-full w-24 font-semibold">JavaScript</p>
                         <p className="text-blue-600 bg-black rounded-full w-20 font-semibold">CSS</p>
                         <p className="text-sky-600 bg-black rounded-full w-16 font-semibold">React</p>
                         <p className="text-green-600 bg-black rounded-full w-20 font-semibold">Node.Js</p>
