@@ -21,7 +21,7 @@ export const Inicio = () => {
                     </Link>
                     </div>
                     <div>
-                        <Link href={"https://drive.google.com/file/d/1_IMCLJMUSwVIf6ZAoypsrQPQhPY8zfPT/view?usp=sharing"} className="text-base p-1 font-medium bg-slate-900 text-white rounded-xl hover:text-slate-700 duration-300 transition-colors shadow">
+                        <Link href={"https://drive.google.com/file/d/1Q0NvCxqmBF_Kw02D5eEs9hOWDG5rVCie/view?usp=sharing"} className="text-base p-1 font-medium bg-slate-900 text-white rounded-xl hover:text-slate-700 duration-300 transition-colors shadow">
                             Descargar CV
                         </Link>
                     </div>

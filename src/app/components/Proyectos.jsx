@@ -18,7 +18,7 @@ export const Proyectos = () => {
     return (
         <div id="proyectos" className="flex flex-col justify-center container mx-auto px-4 md:w-1/2 md:px-2 md:pb-40 md:mt-11 md:pt-24 md:h-[calc(100vh-rem)]">
             <h1 className="text-slate-100 text-2xl font-bold py-6 md:text-4xl">Proyectos</h1>
-            <section className="rounded-md">
+            <section className="rounded-md pb-16 md:pb-0">
                 <div className="p-2 border-b border-t border-slate-500 md:flex md:justify-between md:items-center md:gap-x-8">
                     <div>
                         <div className="flex justify-between items-center py-1">
@@ -40,19 +40,19 @@ export const Proyectos = () => {
                 <div className="relative py-6">
                     <Image src={cambiarImagen ? "/images/proyectos/DonkeyKongApp.jpg" : "/images/proyectos/DonkeyKongApp2.jpg"}   alt="foto" className="m-auto rounded-md" width={1200} height={1200}/>
                     <button onClick={handleClick} type="button" className="text-slate-300 text-4xl absolute top-52 right-4 hover:text-slate-500 transition-colors duration-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" className="w-10 h-10">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="w-10 h-10">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                         </svg>
                     </button>
                     <button onClick={handleClick} type="button" className="text-slate-300 text-4xl absolute top-52 left-4 hover:text-slate-500 transition-colors duration-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" className="w-10 h-10">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="w-10 h-10">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
                         </svg>
                     </button>
                 </div>
             </section>
 
-            <section className="rounded-md">
+            <section className="rounded-md pb-16 md:pb-0">
                 <div className="p-2 border-b border-t border-slate-500 md:flex md:justify-between md:items-center md:gap-x-8">
                     <div>
                         <div className="flex justify-between items-center py-1">
@@ -75,19 +75,19 @@ export const Proyectos = () => {
                 <div className="relative py-6">
                     <Image src={cambiarImagen ? "/images/proyectos/appfutbol1.jpg" : "/images/proyectos/appfutbol2.jpg"}   alt="foto" className="m-auto rounded-md" width={1200} height={1200}/>
                     <button onClick={handleClick} type="button" className="text-slate-300 text-4xl absolute top-52 right-4 hover:text-slate-500 transition-colors duration-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" className="w-10 h-10">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="w-10 h-10">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                         </svg>
                     </button>
                     <button onClick={handleClick} type="button" className="text-slate-300 text-4xl absolute top-52 left-4 hover:text-slate-500 transition-colors duration-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" className="w-10 h-10">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="w-10 h-10">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
                         </svg>
                     </button>
                 </div>
             </section>
 
-            <section className="rounded-md md:pt-14">
+            <section className="rounded-md pb-16 md:pt-14 md:pb-0">
                 <div className="p-2 border-b border-t border-slate-500 md:flex md:justify-between md:items-center md:gap-x-8">
                     <div>
                         <div className="flex justify-between items-center py-1">
@@ -108,14 +108,14 @@ export const Proyectos = () => {
                 </div>
                 <div className="relative py-6">
                     <Image src={cambiarImagen2 ? "/images/proyectos/BeristainMarketApp.jpg" : "/images/proyectos/BeristainMarketApp2.jpg"}   alt="foto" className="m-auto rounded-md" width={1200} height={1200}/>
-                    <button onClick={handleClick2} type="button" className="text-yellow-400 shadow-3xl text-4xl absolute top-52 right-4 hover:text-yellow-500 transition-colors duration-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" className="w-10 h-10">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                    <button onClick={handleClick2} type="button" className="text-white md:text-yellow-400 shadow-3xl text-4xl absolute top-52 right-4 hover:text-yellow-500 transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="w-10 h-10">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                         </svg>
                     </button>
-                    <button onClick={handleClick2} type="button" className="text-yellow-400 shadow-3xl text-4xl absolute top-52 left-4 hover:text-yellow-500 transition-colors duration-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" className="w-10 h-10">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+                    <button onClick={handleClick2} type="button" className="text-white md:text-yellow-400 shadow-3xl text-4xl absolute top-52 left-4 hover:text-yellow-500 transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="w-10 h-10">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
                         </svg>
                     </button>
                 </div>
@@ -143,7 +143,7 @@ export const Proyectos = () => {
                 </div>
             </section>
 
-            <section className="rounded-md md:pt-14">
+            <section className="rounded-md pb-16 md:pt-14 md:pb-0">
                 <div className="p-2 border-b border-t border-slate-500 md:flex md:justify-between md:items-center md:gap-x-8">
                     <div>
                         <div className="flex justify-between items-center py-1">
@@ -165,14 +165,14 @@ export const Proyectos = () => {
                 </div>
                 <div className="relative py-6">
                     <Image src={cambiarImagen2 ? "/images/proyectos/Banderas1.jpg" : "/images/proyectos/Banderas2.jpg"}   alt="foto" className="m-auto rounded-md" width={1200} height={1200}/>
-                    <button onClick={handleClick2} type="button" className="text-yellow-400 shadow-3xl text-4xl absolute top-52 right-4 hover:text-yellow-500 transition-colors duration-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" className="w-10 h-10">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                    <button onClick={handleClick2} type="button" className="text-white md:text-yellow-400 shadow-3xl text-4xl absolute top-52 right-4 hover:text-yellow-500 transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="w-10 h-10">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                         </svg>
                     </button>
-                    <button onClick={handleClick2} type="button" className="text-yellow-400 shadow-3xl text-4xl absolute top-52 left-4 hover:text-yellow-500 transition-colors duration-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" className="w-10 h-10">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+                    <button onClick={handleClick2} type="button" className="text-white md:text-yellow-400 shadow-3xl text-4xl absolute top-52 left-4 hover:text-yellow-500 transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="w-10 h-10">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
                         </svg>
                     </button>
                 </div>
