@@ -14,5 +14,16 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addComponents }) {
+      addComponents({
+        '.custom-transition': {
+          '@apply transition-all duration-500 md:hover:-translate-x-2': {},
+        },
+        '.logo-scale': {
+          '@apply transition-transform duration-500 md:hover:scale-125': {},
+        },
+      });
+    }
+  ],
 };

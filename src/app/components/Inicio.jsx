@@ -3,8 +3,9 @@ import Link from "next/link";
 
 export const Inicio = () => {
     return (
-        <div id="inicio" className="flex justify-center items-center pb-72 md:pt-52 md:h-[calc(100vh-0rem)]">
-            <div className="px-2 gap-y-2 pt-16 flex flex-col md:gap-y-0 md:mx-auto md:p-0 md:px-0">
+        <div id="inicio" className="flex flex-col justify-center items-center pb-56 pt-20 md:pt-64 md:pb-80 lg:pb-56 lg:pt-48 lg:flex-row xl:pb-72 xl:pt-52 xl:h-[calc(100vh-0rem)]">
+            {/* Perfil */}
+            <div className="px-2 gap-y-2 pt-8 flex flex-col md:pt-16 md:gap-y-0 md:mx-auto md:p-0 md:px-0 lg:pl-10">
                 <section className="flex flex-col gap-y-1 py-1">
                     <h1 className="text-3xl font-bold text-slate-100 md:text-5xl">Gonzalo Beristain Araya</h1>
                     <h2 className="text-2xl font-bold text-slate-400 md:text-4xl">Desarrollador FullStack</h2>
@@ -21,14 +22,15 @@ export const Inicio = () => {
                     </Link>
                     </div>
                     <div>
-                        <Link href={"https://drive.google.com/file/d/1Uzrr1hZEJ8HubAkDS9bDPtPRbHDOUAWC/view?usp=sharing"} className="text-base p-1 font-medium bg-slate-900 text-white rounded-xl hover:text-slate-700 duration-300 transition-colors shadow">
+                        <Link href={"https://docs.google.com/document/d/1CUUCm4xbvYxhEodzwTBaL-zo9XFb57zS/edit?usp=sharing&ouid=109881700263937680379&rtpof=true&sd=true"} className="text-base p-1 font-medium bg-slate-900 text-white rounded-xl hover:text-slate-700 duration-300 transition-colors shadow">
                             Descargar CV
                         </Link>
                     </div>
                 </section>
             </div>
-            <div className="mr-56 hidden md:block">
-                <Image src="/images/Img-inicio.jpg" alt="foto" className="m-auto rounded-full" width={500} height={400} />
+            {/* Imagen perfin */}
+            <div className="pt-20 lg:pr-12 xl:pt-0 xl:mr-56">
+                <Image src="/images/Img-inicio.jpg" alt="foto" className="m-auto rounded-full px-4 md:px-0" width={500} height={400} />
             </div>
         </div>
         
