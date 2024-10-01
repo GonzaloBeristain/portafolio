@@ -38,7 +38,7 @@ export const Proyectos = () => {
                     </div>
                     <div className="p-1 text-center flex gap-x-2 text-xs md:text-base md:-ml-2 md:flex-col md:items-center md:gap-y-2 lg:items-start lg:gap-y-0 lg:flex-row">
                         <p className="text-red-600 bg-black rounded-full w-16 font-semibold transition-transform duration-500 md:hover:scale-125">HTML5</p>
-                        <p className="text-yellow-600 bg-black rounded-full w-24 font-semibold transition-transform duration-500 md:hover:scale-125">JavaScript</p>
+                        <p className="text-sky-400 bg-black rounded-full w-24 font-semibold transition-transform duration-500 md:hover:scale-125">TypeScript</p>
                         <p className="text-red-400 bg-black rounded-full w-20 font-semibold transition-transform duration-500 md:hover:scale-125">Angular</p>
                         <p className="text-blue-600 bg-black rounded-full w-20 font-semibold transition-transform duration-500 md:hover:scale-125">Tailwind</p>
                         <p className="text-slate-100 bg-black rounded-full w-24 font-semibold transition-transform duration-500 md:hover:scale-125">GitHub-pg</p>
