@@ -22,7 +22,7 @@ export const Inicio = () => {
                     </Link>
                     </div>
                     <div>
-                        <Link href={"https://docs.google.com/document/d/1CUUCm4xbvYxhEodzwTBaL-zo9XFb57zS/edit?usp=sharing&ouid=109881700263937680379&rtpof=true&sd=true"} className="text-base p-1 font-medium bg-slate-900 text-white rounded-xl hover:text-slate-700 duration-300 transition-colors shadow">
+                        <Link href={"https://drive.google.com/file/d/1Y6Wud32J4ij4AmDuRhEkuo4BwFG-ltgQ/view?usp=sharing"} className="text-base p-1 font-medium bg-slate-900 text-white rounded-xl hover:text-slate-700 duration-300 transition-colors shadow">
                             Descargar CV
                         </Link>
                     </div>
