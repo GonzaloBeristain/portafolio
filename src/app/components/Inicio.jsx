@@ -11,18 +11,18 @@ export const Inicio = () => {
                     <h2 className="text-2xl font-bold text-slate-400 md:text-4xl">Desarrollador FullStack</h2>
                 </section>
                 <section className="flex gap-x-6 center text-white p-1 rounded-md bg-slate-600 w-64 items-center">
-                    <div className="hover:bg-slate-800 duration-300 transition-colors shadow cursor-pointer rounded-full">
+                    <div className="hover:bg-purple-800 duration-500 transition-colors shadow cursor-pointer rounded-full">
                         <Link href={"https://github.com/GonzaloBeristain"}>
                             <Image src="/images/logos/github.svg" alt="foto" className="m-auto" width={40} height={40}/>
                         </Link>
                     </div>
-                    <div className="hover:bg-slate-800 duration-300 transition-colors shadow cursor-pointer">
-                    <Link href={"https://www.linkedin.com/in/gonzalo-beristain"}>
-                        <Image src="/images/logos/linkedin.svg" alt="foto" className="m-auto" width={40} height={40}/>
-                    </Link>
+                    <div className="hover:bg-blue-800 duration-500 transition-colors shadow cursor-pointer">
+                        <Link href={"https://www.linkedin.com/in/gonzalo-beristain"}>
+                            <Image src="/images/logos/linkedin.svg" alt="foto" className="m-auto" width={40} height={40}/>
+                        </Link>
                     </div>
                     <div>
-                        <Link href={"https://drive.google.com/file/d/1Y6Wud32J4ij4AmDuRhEkuo4BwFG-ltgQ/view?usp=sharing"} className="text-base p-1 font-medium bg-slate-900 text-white rounded-xl hover:text-slate-700 duration-300 transition-colors shadow">
+                        <Link href={"https://drive.google.com/file/d/13EEtMHROF6GqxPyhGL0j63sgodkoAnDT/view?usp=sharing"} className="text-base p-1 font-medium bg-slate-900 text-white rounded-xl hover:text-slate-700 duration-300 transition-colors shadow">
                             Descargar CV
                         </Link>
                     </div>
