@@ -4,6 +4,7 @@ import "./globals.css";
 //Componentes
 import { Navbar } from "@/app/components/Navbar.jsx";
 import { Footer } from "@/app/components/Footer.jsx";
+import ChatBot from "./components/ChatBot";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
         <main className=" mx-auto animated-background">
           {children}
         </main>
+        <ChatBot />
         <Footer />
       </body>
     </html>
