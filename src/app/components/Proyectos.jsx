@@ -10,6 +10,7 @@ export const Proyectos = () => {
     const [cambiarImagen4, setCambiarImagen4] = useState(true);
     const [cambiarImagen5, setCambiarImagen5] = useState(true);
     const [cambiarImagen6, setCambiarImagen6] = useState(true);
+    const [cambiarImagen7, setCambiarImagen7] = useState(true);
 
     const handleClick = (setter) => () => {
         setter(prev => !prev);
@@ -18,6 +19,47 @@ export const Proyectos = () => {
     return (
         <div id="proyectos" className="flex flex-col justify-center container mx-auto px-4 md:pt-20 xl:w-1/2 xl:px-2 xl:pb-40 xl:mt-11 xl:pt-20 xl:h-[calc(100vh-rem)]">
             <h1 className="text-slate-100 text-2xl font-bold py-6 md:text-4xl">Proyectos</h1>
+
+            {/* Captura tu Pokémon */}
+            <section className="rounded-md pb-16 md:pb-0">
+                <div className="p-2 border-t border-slate-500 md:flex md:justify-between md:items-center md:gap-x-8">
+                    <div>
+                        <div className="flex justify-between items-center py-1">
+                            <h1 className="text-slate-300 font-semibold text-xl md:text-2xl">Captura tu Pokémon</h1>
+                            <div className="flex gap-x-3">
+                                <Link className="text-base bg-black rounded-md px-1 text-purple-500 font-semibold hover:text-purple-800  md:text-lg md:bg-black transition-all duration-500 md:hover:-translate-x-1" href={"https://github.com/GonzaloBeristain/captura-pokemon"}>
+                                    Código
+                                </Link>
+                                <Link className="text-base bg-black rounded-md px-2 text-purple-500 font-semibold hover:text-purple-800 transition-all duration-500 md:text-lg md:bg-black md:hover:-translate-x-2" href={"https://gonzaloberistain.github.io/captura-pokemon/"}>
+                                    Visitar
+                                </Link>
+                            </div>
+                        </div>
+                        <p className="text-slate-400 font-semibold text-justify pb-1 md:text-lg">App creada con Vite/React, TypeScript y Tailwind. Se utilizó la API de pokémon y REDUX de react para el manejo global de estados (bolsa de pokemones capturados). La app fue subida a github pages.</p>
+                    </div>
+                    <div className="p-1 text-center flex gap-x-2 text-xs md:text-base md:-ml-2 md:flex-col md:items-center md:gap-y-2 lg:items-start lg:gap-y-0 lg:flex-row">
+                        <p className="text-red-600 bg-black rounded-full w-16 font-semibold transition-transform duration-500 md:hover:scale-125">HTML5</p>
+                        <p className="text-sky-400 bg-black rounded-full w-24 font-semibold transition-transform duration-500 md:hover:scale-125">TypeScript</p>
+                        <p className="text-red-400 bg-black rounded-full w-12 font-semibold transition-transform duration-500 md:hover:scale-125">Vite</p>
+                        <p className="text-red-300 bg-black rounded-full w-16 font-semibold transition-transform duration-500 md:hover:scale-125">Redux</p>
+                        <p className="text-blue-600 bg-black rounded-full w-20 font-semibold transition-transform duration-500 md:hover:scale-125">Tailwind</p>
+                        <p className="text-slate-100 bg-black rounded-full w-24 font-semibold transition-transform duration-500 md:hover:scale-125">GitHub-pg</p>
+                    </div>
+                </div>
+                <div className="relative mb-7 mt-2">
+                    <Image src={cambiarImagen7 ? "/images/proyectos/CapturaPokemon1.jpg" : "/images/proyectos/CapturaPokemon2.jpg"} alt="foto" className="m-auto rounded-md" width={1200} height={1200}/>
+                    <button onClick={handleClick(setCambiarImagen7)} type="button" className="text-slate-300 text-4xl absolute top-44 md:top-36 lg:top-52 right-4 hover:text-slate-500 transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="w-10 h-10">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                        </svg>
+                    </button>
+                    <button onClick={handleClick(setCambiarImagen7)} type="button" className="text-slate-300 text-4xl absolute top-44 md:top-36 lg:top-52 left-4 hover:text-slate-500 transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="w-10 h-10">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+                        </svg>
+                    </button>
+                </div>
+            </section>
             
             {/* Dragon Ball APP */}
             <section className="rounded-md pb-16 md:pb-0">

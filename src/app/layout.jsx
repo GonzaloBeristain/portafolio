@@ -9,7 +9,7 @@ import ChatBot from "./components/ChatBot";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Desarrollador Gonzalo Beristain",
+  title: "Developer Gonzalo Beristain ",
   description: "Portafolio Desarrollador Gonzalo Beristain",
 };
 
