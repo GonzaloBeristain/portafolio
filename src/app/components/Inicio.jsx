@@ -12,23 +12,23 @@ export const Inicio = () => {
                 </section>
                 <section className="flex gap-x-6 center text-white p-1 rounded-md bg-slate-600 w-64 items-center">
                     <div className="hover:bg-purple-800 duration-500 transition-colors shadow cursor-pointer rounded-full">
-                        <Link href={"https://github.com/GonzaloBeristain"}>
+                        <Link href={"https://github.com/GonzaloBeristain"} target="_blank">
                             <Image src="/images/logos/github.svg" alt="foto" className="m-auto" width={40} height={40}/>
                         </Link>
                     </div>
                     <div className="hover:bg-blue-800 duration-500 transition-colors shadow cursor-pointer">
-                        <Link href={"https://www.linkedin.com/in/gonzalo-beristain"}>
+                        <Link href={"https://www.linkedin.com/in/gonzalo-beristain"} target="_blank">
                             <Image src="/images/logos/linkedin.svg" alt="foto" className="m-auto" width={40} height={40}/>
                         </Link>
                     </div>
                     <div>
-                        <Link href={"https://drive.google.com/file/d/13EEtMHROF6GqxPyhGL0j63sgodkoAnDT/view?usp=sharing"} className="text-base p-1 font-medium bg-slate-900 text-white rounded-xl hover:text-slate-700 duration-300 transition-colors shadow">
+                        <Link href={"https://drive.google.com/file/d/1Fk2rsc8Db5YJcl9ARXWoBempMDUCPNBx/view?usp=sharing"} target="_blank" className="text-base p-1 font-medium bg-slate-900 text-white rounded-xl hover:text-slate-700 duration-300 transition-colors shadow">
                             Descargar CV
                         </Link>
                     </div>
                 </section>
             </div>
-            {/* Imagen perfin */}
+            {/* Imagen perfil */}
             <div className="pt-20 lg:pr-12 xl:pt-0 xl:mr-56">
                 <Image src="/images/Img-inicio.jpg" alt="foto" className="m-auto rounded-full px-4 md:px-0" width={500} height={400} />
             </div>

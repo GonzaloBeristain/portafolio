@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const Tecnologias = () => {
     return (
-        <div id="tecnologias" className="flex flex-col justify-center container mx-auto px-4 md:pt-20 xl:w-1/2 xl:px-2 xl:pt-24 xl:h-[calc(100vh-rem)]">
+        <div id="tecnologias" className="flex flex-col justify-center container mx-auto px-4 md:pt-20 xl:w-1/2 xl:px-2 xl:pt-16 xl:h-[calc(100vh-rem)]">
             <h1 className="text-slate-100 text-2xl font-bold py-6 md:text-4xl">Tecnologías</h1>
             <section className="shadow rounded-lg bg-slate-500 pb-5 flex justify-center items-center">
                 <ul className="grid grid-cols-2 gap-y-3 gap-x-3 pl-4 pt-5 md:grid-cols-4 md:gap-y-10 md:pl-10">
