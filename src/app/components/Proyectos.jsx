@@ -30,7 +30,7 @@ export const Proyectos = () => {
                                 Visitar
                             </Link>
                         </div>
-                        <p className="text-slate-400 font-semibold text-justify pb-1 md:text-lg">Página oficial de la comunidad chilena de Medal Of Honor, la cual cuenta con casi 200 jugadores activos. Se realizó un sistema de clasificación llamado 'Ladder', el cual ordena a los clanes participantes por ranking.</p>
+                        <p className="text-slate-400 font-semibold text-justify pb-1 md:text-lg">Página oficial de la comunidad chilena de Medal Of Honor, la cual cuenta con casi 200 jugadores activos. Se realizó un sistema de clasificación llamado Ladder, el cual ordena a los clanes participantes por ranking.</p>
                     </div>
                     <div className="p-1 text-center flex gap-x-2 text-xs md:-ml-2 md:text-base md:flex-col md:items-center md:gap-y-2 lg:items-start lg:gap-y-0 lg:flex-row">
                         <p className="text-sky-600 bg-black rounded-full logo-scale w-16 font-semibold">React</p>
