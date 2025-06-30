@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 import { Bot, X } from "lucide-react";
 
 const questions = [
-    { question: "¿Qué tecnologías manejo?", answer: "Domino JavaScript, TypeScript, React, Next.js, .NET, Angular, SQL, Python, R, entre otros." },
-    { question: "¿En qué áreas tengo experiencia?", answer: "Tengo experiencia en desarrollo web full stack." },
-    { question: "¿Dónde puedo ver tu trabajo?", answer: "Puedes ver mi código en mi GitHub y mis proyectos en este portafolio, seleccionando la pestaña 'Proyectos' en el menú superior." },
-    { question: "¿Puedo descargar tu CV?", answer: "Sí, puedes descargar mi CV desde la pestaña 'Inicio', y haciendo click en el botón 'Descargar CV'" },
-    { question: "¿Como puedo contactarte?", answer: "Puedes contactarme por Linkedin o directamente en mi correo eléctronico, el cual se encuentra en la pestaña 'Contacto'." }
+    { question: "¿Qué tecnologías manejo?", answer: "Domino JavaScript, React, Node.js, Express, SQL, entre otros." },
+    { question: "¿En qué áreas tengo experiencia?", answer: "Tengo experiencia en desarrollo full stack, tanto en el backend como en el frontend." },
+    { question: "¿Dónde puedo ver tu trabajo?", answer: "Puedes ver mi código en mi GitHub y mis proyectos en este portafolio, seleccionando la sección 'Proyectos' en el menú superior." },
+    { question: "¿Puedo descargar tu CV?", answer: "Sí, puedes descargar mi CV desde la sección 'Inicio', y haciendo click en el botón 'Descargar CV'" },
+    { question: "¿Como puedo contactarte?", answer: "Puedes contactarme por Linkedin o directamente en mi correo eléctronico, el cual se encuentra en la sección 'Contacto'." }
 ];
 
 export default function ChatBot() {

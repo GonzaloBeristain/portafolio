@@ -8,21 +8,21 @@ import { Contacto } from "@/app/components/Contacto.jsx";
 export default function Home() {
   return (
     <main>
-      <div>
+      <section id="inicio">
         <Inicio />
-      </div>
-      <div>
+      </section>
+      <section id="sobremi">
         <SobreMi />
-      </div>
-      <div>
+      </section>
+      <section id="tecnologias">
         <Tecnologias />
-      </div>
-      <div>
+      </section>
+      <section id="proyectos">
         <Proyectos />
-      </div>
-      <div>
+      </section>
+      <section id="contacto">
         <Contacto />
-      </div>
+      </section>
     </main>
   );
 };

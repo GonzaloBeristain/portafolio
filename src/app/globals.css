@@ -22,6 +22,12 @@ html {
     animation: gradientAnimation 10s ease infinite; 
 }
 
+.animated-charge {
+    background: linear-gradient(90deg, rgb(227, 226, 233) 38%, rgb(133, 133, 219) 53%, rgb(209, 209, 224) 94%);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+}
+
 @keyframes gradientAnimation {
     0% {
         background-position: 0% 50%; 
